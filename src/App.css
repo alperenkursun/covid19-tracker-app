@@ -1,0 +1,137 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  padding: 50px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 52px;
+  color: #ff6f61;
+}
+
+.header p:nth-of-type(1) {
+  font-weight: 600;
+}
+
+.header p:nth-of-type(2) {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.info {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+
+.info-item {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.info-item:nth-of-type(1) {
+  background-color: #add8e6;
+}
+
+.info-item:nth-of-type(2) {
+  background-color: #98ff98;
+}
+
+.info-item:nth-of-type(3) {
+  background-color: #ff6f61;
+}
+
+.info-item:nth-of-type(4) {
+  background-color: #fffacd;
+}
+
+.info-item h2 {
+  margin-top: 0px;
+  font-weight: 500;
+}
+
+.info-item h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.info-item h4 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.info-item p {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.info-item p:last-of-type {
+  margin-bottom: 0px;
+}
+
+.info-item .date {
+  font-weight: 600;
+  color: #666;
+}
+
+.dropdown-container {
+  width: 320px;
+  margin: 25px 0;
+}
+
+.dropdown {
+  width: 100%;
+  padding: 8px 12px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: transparent;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: relative;
+  outline: none;
+}
+
+.dropdown:focus {
+  border-bottom: 2px solid #666;
+}
+
+.dropdown-container::after {
+  content: "▾";
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #666;
+}
+
+.chart-container {
+  margin-top: 25px;
+}
+
+.footer {
+  font-weight: 500;
+  font-size: 13px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.footer a {
+  font-weight: 600;
+  color: #ff6f61;
+}

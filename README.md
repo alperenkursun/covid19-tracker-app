@@ -4,9 +4,8 @@ HTML - CSS - JS - React - Redux App
 
 ---
 
-<!--
-[See The Project]()
+[See The Project](https://akcovid19trackerapp.surge.sh/)
 
-![ctaimg]()
+![ctaimg](ctaimg.webp)
 
-[Patika](https://academy.patika.dev/tr/@alpk) -->
+[Patika](https://academy.patika.dev/tr/@alpk)
